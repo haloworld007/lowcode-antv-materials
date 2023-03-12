@@ -4,8 +4,9 @@ export { default as ColorfulButton } from './components/colorful-button';
 export type { ColorfulInputProps } from './components/colorful-input';
 export { default as ColorfulInput } from './components/colorful-input';
 
+export type { LineConfig } from './components/line';
+export { default as Line } from './components/line';
+
 const bizCssPrefix = 'bizpack';
 
-export {
-  bizCssPrefix
-}
+export { bizCssPrefix };

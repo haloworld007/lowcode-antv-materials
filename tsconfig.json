@@ -18,7 +18,8 @@
     "baseUrl": "./",
     "esModuleInterop": true,
     "experimentalDecorators": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "lib": ["es5", "es6", "dom"]
   },
   "include": ["src"],
   "exclude": ["node_modules", "lib"]
