@@ -1,4 +1,6 @@
+import ColumnMeta from '/Users/haloworld/Project/lowcode-antv-materials/lowcode/column/meta'
 import LineMeta from '/Users/haloworld/Project/lowcode-antv-materials/lowcode/line/meta'
+import PieMeta from '/Users/haloworld/Project/lowcode-antv-materials/lowcode/pie/meta'
 
 const componentCategorySort = {};
 ["基础元素","布局容器类","表格类","表单详情类","帮助类","对话框类","业务类","通用","引导","信息输入","信息展示","信息反馈"]
@@ -100,7 +102,7 @@ function fillRealVersion(meta, packageName = '@seada/antv-materials', version = 
   return meta;
 }
 
-const componentMetas = [LineMeta];
+const componentMetas = [ColumnMeta,LineMeta,PieMeta];
 const components = [];
 const npmInfo = {};
 componentMetas.forEach(meta => {
