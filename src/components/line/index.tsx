@@ -1,10 +1,13 @@
 import React, { createElement } from 'react';
 import { Line as AntVLine, LineConfig } from '@ant-design/plots';
 
-const Line: React.FC<LineConfig> = ({ ...config }) => {
-  return <AntVLine {...config} />;
+export interface LineProps {
+  data: LineConfig['data'];
+}
+
+const Line: React.FC<LineProps> = () => {
+  return <AntVLine data={[]} />;
 };
 
-export type { LineConfig };
-
+Line.displayName = 'Line';
 export default Line;

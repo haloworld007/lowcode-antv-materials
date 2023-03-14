@@ -1,12 +1,12 @@
 
 
-export { default } from '/Users/ruhuotan/Project/lowcode-antv-materials/src/index.tsx';
+export { default } from '/Users/haloworld/Project/lowcode-antv-materials/src/index.tsx';
 
-import * as componentInstances from '/Users/ruhuotan/Project/lowcode-antv-materials/src/index.tsx';
+import * as componentInstances from '/Users/haloworld/Project/lowcode-antv-materials/src/index.tsx';
 
-import '/Users/ruhuotan/Project/lowcode-antv-materials/src/index.scss'
+import '/Users/haloworld/Project/lowcode-antv-materials/src/index.scss'
 
-export * from '/Users/ruhuotan/Project/lowcode-antv-materials/src/index.tsx';
+export * from '/Users/haloworld/Project/lowcode-antv-materials/src/index.tsx';
 
 const coveredComponents = {};
 
